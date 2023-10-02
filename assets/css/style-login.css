@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&family=Roboto:wght@400;900&display=swap');
+
+
+:root {
+    --text-h3-color: #62289c;
+    --text-font: 'Rammetto One', sans-serif;
+    --text-login-color: #ffffff;
+    --text-register-color: rgba(0, 0, 0, 0.71);
+    --bacground-color: #F2EDD0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bacground-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100vh;
+    width: 400px;
+}
+
+.text{
+    margin-bottom: 100px;
+}
+
+.text h3{
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: normal;
+    font-family: var(--text-font);
+    color: var(--text-h3-color);
+}
+
